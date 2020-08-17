@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Milena Orellana">
+
+  <title>Blog — Milena Orellana</title>
+  <link rel="icon" href="img/mifavicom.ico"/>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">IIS — UNIDAD 2</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="unity1.html">Unidad 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="unity2.html">Unidad 2</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/post2.1.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>2.3 MODELOS DE DESARROLLO: TRADICIONALES VS ALTERNATIVOS</h1>
+              <span class="meta">Publicado por
+                <a href="about.html">Milena Orellana</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+          <h2 class="section-heading">2.3.1 Definición y etapas. </h2>
+          <br>
+          <br>
+          <h4>Concepto de modelo de Desarrollo de software </h4>
+            <p>Los modelos de desarrollo de software son una representación abstracta de una manera en particular. Realmente no representa cómo se debe desarrollar el software, sino de un enfoque común. Puede ser modificado y adaptado de acuerdo a las necesidades del software en proceso de desarrollo. Hay varios modelos para perfilar el proceso de desarrollo, cada uno de las cuales cuenta con pros y contras. El proyecto debería escoger el más apropiado para sus necesidades. En ocasiones puede que una combinación de varios modelos sea apropiado.</p>
+            <p>Los modelos de proceso de desarrollo de software incluyen los requisitos del sistema como entrada y un producto entregado como salida​.</p>
+          <br>
+          <br>
+          <hr>
+
+          <h2 class="section-heading">2.3.2 Modelos tradicionales: Cascada, prototipo y espiral.</h2>
+          <br>
+          <br>
+          <h4>Modelo Cascada</h4>
+              <p>Las fases están identificadas por separado: ​</p>
+                <ul>
+                  <li>El análisis  y definición de requerimientos​</li>          
+                  <li>Diseño del sistema y software.​</li>          
+                  <li>Pruebas de implementación de unidades​</li>          
+                  <li>Integración y pruebas del sistema ​</li>
+                  <li>Operación y mantenimiento</li>
+                </ul>
+              <p>El principal inconveniente del modelo de la cascada es la dificultad de acomodar el cambio después de que está en marcha el proceso. En principio, una fase tiene que ser completada antes de pasar a la siguiente fase.​</p>
+              <div align="center"><img src='img/cascada2.png' width="500" height="500"
+                alt= "Modelo Cascada."
+                title= "Modelo Cascada."></div>
+
+            <h4>Modelo Prototipo</h4>
+            <p><strong>Beneficios:</strong></p>
+              <ul>
+                <li>El costo de atender las necesidades cambiantes de los clientes se reduce. ​<ul><li>La cantidad de análisis y la documentación que tiene que ser hecho de nuevo es mucho menor que la que se requiere con el modelo de cascada.</li></il></ul></li>
+                <li>Es más fácil obtener retroalimentación de los clientes en el trabajo de desarrollo que se ha hecho.​<ul><li>Los clientes pueden hacer comentarios sobre las manifestaciones del software y ver cuánto se ha implementado. ​</li></ul></li>
+                <li>Más rápida entrega y despliegue de software de utilidad para el cliente es posible. ​<ul><li>Los clientes pueden usar y obtener valor a partir del software anterior que es posible con un proceso de cascada.​</ul></li>
+              </ul>
+            <p><strong>Problemas:</strong></p>
+              <ul>
+                <li>El proceso no es visible.​<ul><li>Los gerentes necesitan entregas regulares para medir el progreso. Si se desarrollan rápidamente los sistemas, no es rentable para producir documentos que reflejen todas las versiones del sistema.​</li></ul></li> 
+                <li>Estructura del sistema tiende a degradarse a medida que se añaden nuevos incrementos.<ul><li>A menos tiempo y dinero que se gasta en la refactorización para mejorar el software, cambio regular tiende a corromper su estructura. La incorporación de nuevos cambios de software se vuelve cada vez más difícil y costoso. ​</li></ul> </li>
+                <li>A menos tiempo y dinero que se gasta en la refactorización para mejorar el software, cambio regular tiende a corromper su estructura. La incorporación de nuevos cambios de software se vuelve cada vez más difícil y costoso. ​</li>
+              </ul>
+              <div align="center"><img src='img/prototipo.jpg' width="500" height="500"
+                alt= "Modelo Prototipo."
+                title= "Modelo Prototipo."></div>
+
+            <h4>Modelo Espiral</h4>
+            <p>En este modelo, el esfuerzo de desarrollo es iterativo. Tan pronto como uno completa un esfuerzo de desarrollo, otro comienza. Además, en cada desarrollo ejecutado, puedes seguir estos cuatros pasos.:</p>
+              <ol>
+                <li><strong>Determinar qué quieres lograr.</strong> </li>
+                  <ul><li>Los objetivos de la parte del producto que está siendo elaborada (rendimientos, funcionalidad, adaptación al cambio, etc.). ​</li><li>Las alternativas principales de la implementación de esta porción del producto (usar el diseño A, usar el diseño B, reutilizar el módulo X de la aplicación Z, comprar a un proveedor externo, etc.). </li><li>Las restricciones impuestas para cada alternativa (costes, planificaciones, interfaces, etc.). </li></ul>
+                <li><strong>Determinar las rutas alternativas que puedes tomar para lograr estas metas.</strong> Por cada una, analizar los riesgos y resultados finales, y seleccionar la mejor. </li></li></ul>
+                  <ul><li>Evaluar las diferentes alternativas que se plantean teniendo en cuenta los objetivos a conseguir y las restricciones impuestas. Frecuentemente, este paso identifica las áreas de incertidumbre del proyecto con sus correspondientes riesgos.​</li><li>Si existen riesgos, lo siguiente es la formulación de una estrategia efectiva en coste (utilizando prototipos, simulación, bancos de prueba, cuestionario para los usuarios, modelización analítica o combinaciones de éstas y otras técnicas de resolución de riesgos) para resolver dichos riesgos.​</li></ul>
+                <li><strong>Seguir la alternativa seleccionada en el paso 2.</strong></li>
+                  <ul><li>Tareas de la actividad propia y de prueba.​</li><li>Análisis de alternativas e identificación resolución de riesgos. </li><li>Dependiendo del resultado de la evaluación de los riesgos, se elige un modelo para el desarrollo, el que puede ser cualquiera de los otros existentes, como formal, evolutivo, cascada, etc.</li></ul>
+                <li><strong>Establecer qué tienes terminado.</strong></li>
+                  <ul><il>Revisar todo lo hecho, evaluándolo, y con ello decidir si se continúa con las fases siguientes y planificar la próxima actividad. </il></ul>
+              </ol>
+            <p>El Modelo Espiral mejora el Modelo de Cascada enfatizando la naturaleza iterativa del proceso de diseño. Eso introduce un ciclo de prototipo iterativo. En cada iteración, las nuevas expresiones que son obtenidas transformando otras dadas son examinadas para ver si representan progresos hacia el objetivo. </p>    
+            <div align="center"><img src='img/espiral2.png' width="900" height="500"
+              alt= "Modelo Espiral."
+              title= "Modelo Espiral."></div>
+          <br>
+          <br>
+          <hr>
+          <h2 class="section-heading">2.3.3 Modelos ágiles: Scrum, Xp, Kanban, TDD(Test-DrivenDesign).</h2>
+            <br>
+            <br>
+            <h4>Scrum</h4>
+            <p>Scrum es un proceso en el que se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente, en equipo, y obtener el mejor resultado posible de un proyecto. Estas prácticas se apoyan unas a otras y su selección tiene origen en un estudio de la manera de trabajar de equipos altamente productivos.</p>
+            <div align="center"><img src='img/scrum.gif' width="500" height="500"
+              alt= "Modelo Scrum."
+              title= "Modelo Scrum."></div>
+            <br>
+            <h4>XP</h4>
+            <p>La metodología XP o Programación Extrema es una metodología ágil y flexible utilizada para la gestión de proyectos. Extreme Programming se centra en potenciar las relaciones interpersonales del equipo de desarrollo como clave del éxito mediante el trabajo en equipo, el aprendizaje continuo y el buen clima de trabajo. Esta metodología pone el énfasis en la retroalimentación continua entre cliente y el equipo de desarrollo y es idónea para proyectos con requisitos imprecisos y muy cambiantes.</p>
+            <div align="center"><img src='img/xp.jpg' width="500" height="500"
+              alt= "Modelo XP."
+              title= "Modelo XP."></div>
+              <br>
+            <h4>TDD(Test-DrivenDesign)</h4>
+              <p>Para escribir las pruebas generalmente se utilizan las pruebas unitarias (unit test en inglés). En primer lugar, se escribe una prueba y se verifica que las pruebas fallan. A continuación, se implementa el código que hace que la prueba pase satisfactoriamente y seguidamente se refactoriza el código escrito. El propósito del desarrollo guiado por pruebas es lograr un código limpio que funcione. La idea es que los requisitos sean traducidos a pruebas, de este modo, cuando las pruebas pasen se garantizará que el software cumple con los requisitos que se han establecido.</p>
+              <p>Para que funcione el desarrollo guiado por pruebas, el sistema que se programa tiene que ser lo suficientemente flexible como para permitir que sea probado automáticamente. Cada prueba será suficientemente pequeña como para que permita determinar unívocamente si el código probado pasa o no la verificación que ésta le impone. El diseño se ve favorecido ya que se evita el indeseado "sobre diseño" de las aplicaciones y se logran interfaces más claras y un código más cohesivo.</p>
+              <div align="center"><img src='img/tdd.gif' width="500" height="500"
+                alt= "Modelo TDD."
+                title= "Modelo TDD."></div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/MileKata28">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/mileore">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Jekyll 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
